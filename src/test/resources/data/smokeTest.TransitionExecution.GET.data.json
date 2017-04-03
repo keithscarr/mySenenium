@@ -1,0 +1,14 @@
+[{ 
+	"TEST_id" : "TREX000001",
+	"TEST_name": "Active transition executions (!#NEON-TREX000001) : ",
+	"TEST_filename" : "SmokeTest.TransitionExecution.GET.data.json",
+	"TEST_header" : "application/vnd.neoninc.cds.transitionexecutionlist-v1.0+xml",
+	"TEST_param": "transitionexecutions?namelocationname=CPER&verbose=false"	
+},
+{ 
+	"TEST_id" : "TREX000002",
+	"TEST_name": "Transition Business Execution Object by id (!#NEON-TREX000002) : ",
+	"TEST_filename" : "SmokeTest.TransitionExecution.GET.data.json",
+	"TEST_header" : "application/vnd.neoninc.cds.transitionexecutionbusiness-v1.0+xml",
+	"TEST_param": "transitionexecutions/3"	
+}]

@@ -1,0 +1,77 @@
+[{ 
+	"TEST_id" : "TRJB000001",
+	"TEST_name": "Trans job by transition Job Id (!#NEON-TRJB000001) : ",
+	"TEST_filename" : "SmokeTest.TransitionJob.GET.data.json",
+	"TEST_header" : "application/vnd.neoninc.cds.transitionjoblist-v1.0+xml",
+	"TEST_param": "transitionjob?transitionJobId=1"	
+},
+{ 
+	"TEST_id" : "TRJB000002",
+	"TEST_name": "TransitionJob by transitionId  Site # Date Ranges (!#NEON-TRJB000002) : ",
+	"TEST_filename" : "SmokeTest.TransitionJob.GET.data.json",
+	"TEST_header" : "application/vnd.neoninc.cds.transitionjoblist-v1.0+xml",
+	"TEST_param": "transitionjob?transitionId=176&siteId=74&dataStartDate=2013-01-01&dataEndDate=2016-01-01&verbose=false"	
+},
+{ 
+	"TEST_id" : "TRJB000003",
+	"TEST_name": "Trans job by transition Inst. Id # SiteId and Status (!#NEON-TRJB000003) : ",
+	"TEST_filename" : "SmokeTest.TransitionJob.GET.data.json",
+	"TEST_header" : "application/vnd.neoninc.cds.transitionjoblist-v1.0+xml",
+	"TEST_param": "transitionjob?id=176&siteId=74&status=JOB_OK"	
+},
+{ 
+	"TEST_id" : "TRJB000004",
+	"TEST_name": "Trans job by transition Inst. Id and Site Name (!#NEON-TRJB000004) : ",
+	"TEST_filename" : "SmokeTest.TransitionJob.GET.data.json",
+	"TEST_header" : "application/vnd.neoninc.cds.transitionjoblist-v1.0+xml",
+	"TEST_param": "transitionjob?transitionId=176&siteName=CPER"	
+},
+{ 
+	"TEST_id" : "TRJB000005",
+	"TEST_name": "TransitionJob with Params (!#NEON-TRJB000005) : ",
+	"TEST_filename" : "SmokeTest.TransitionJob.GET.data.json",
+	"TEST_header" : "application/vnd.neoninc.cds.transitionjoblist-v1.0+xml",
+	"TEST_param": "transitionjob?siteId=74&dataStartDate=2013-01-01&dataEndDate=2016-01-01&status=JOB_OK&transitionId=176"	
+},
+{ 
+	"TEST_id" : "TRJB000006",
+	"TEST_name": "Trans job by transition Inst. Id # Site Name and Status (!#NEON-TRJB000006) : ",
+	"TEST_filename" : "SmokeTest.TransitionJob.GET.data.json",
+	"TEST_header" : "application/vnd.neoninc.cds.transitionjoblist-v1.0+xml",
+	"TEST_param": "transitionjob?transitionId=176&siteName=CPER&status=JOB_OK"	
+},
+{ 
+	"TEST_id" : "TRJB000007",
+	"TEST_name": "Trans job by transition Inst. Id (!#NEON-TRJB000007) : ",
+	"TEST_filename" : "SmokeTest.TransitionJob.GET.data.json",
+	"TEST_header" : "application/vnd.neoninc.cds.transitionjoblist-v1.0+xml",
+	"TEST_param": "transitionjob?transitionId=176"	
+},
+{ 
+	"TEST_id" : "TRJB000008",
+	"TEST_name": "Trans job by status and transition Inst. Id (!#NEON-TRJB000008) : ",
+	"TEST_filename" : "SmokeTest.TransitionJob.GET.data.json",
+	"TEST_header" : "application/vnd.neoninc.cds.transitionjoblist-v1.0+xml",
+	"TEST_param": "transitionjob?id=12&status=JOB_OK"	
+},
+{ 
+	"TEST_id" : "TRJB000009",
+	"TEST_name": "Trans job by transition Inst. Id # Site Id (!#NEON-TRJB000009) : ",
+	"TEST_filename" : "SmokeTest.TransitionJob.GET.data.json",
+	"TEST_header" : "application/vnd.neoninc.cds.transitionjoblist-v1.0+xml",
+	"TEST_param": "transitionjob?transitionId=176&siteId=74"	
+},
+{ 
+	"TEST_id" : "TRJB000010",
+	"TEST_name": "Trans job by transition Name (!#NEON-TRJB000010) : ",
+	"TEST_filename" : "SmokeTest.TransitionJob.GET.data.json",
+	"TEST_header" : "application/vnd.neoninc.cds.transitionjoblist-v1.0+xml",
+	"TEST_param": "transitionjob?transitionName=L0 to L1 Barometric Pressure REVB"	
+},
+{ 
+	"TEST_id" : "TRJB000011",
+	"TEST_name": "Trans job by status (!#NEON-TRJB000011) : ",
+	"TEST_filename" : "SmokeTest.TransitionJob.GET.data.json",
+	"TEST_header" : "application/vnd.neoninc.cds.transitionjoblist-v1.0+xml",
+	"TEST_param": "transitionjob?status=JOB_OK"	
+}]

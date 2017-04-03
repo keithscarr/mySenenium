@@ -1,0 +1,28 @@
+[{ 
+	"TEST_id" : "TRAN000001",
+	"TEST_name": "Transition Business Object by name (!#NEON-TRAN000001) : ",
+	"TEST_filename" : "SmokeTest.Transition.GET.data.json",
+	"TEST_header" : "application/vnd.neoninc.cds.transition-v1.0+xml",
+	"TEST_param": "transitions/byname?name=MCD43B4"	
+},
+{ 
+	"TEST_id" : "TRAN000002",
+	"TEST_name": "GET all Transitions (!#NEON-TRAN000002) : ",
+	"TEST_filename" : "SmokeTest.Transition.GET.data.json",
+	"TEST_header" : "application/vnd.neoninc.cds.transitionlist-v1.0+xml",
+	"TEST_param": "transitions"	
+},
+{ 
+	"TEST_id" : "TRAN000003",
+	"TEST_name": "Transition by name (!#NEON-TRAN000003) : ",
+	"TEST_filename" : "SmokeTest.Transition.GET.data.json",
+	"TEST_header" : "application/vnd.neoninc.cds.transition-v1.0+xml",
+	"TEST_param": "transitions?name=MCD43B4"	
+},
+{ 
+	"TEST_id" : "TRAN000004",
+	"TEST_name": "Transition by ID (!#NEON-TRAN000004) : ",
+	"TEST_filename" : "SmokeTest.Transition.GET.data.json",
+	"TEST_header" : "application/vnd.neoninc.cds.transition-v1.0+xml",
+	"TEST_param": "transitions/5"	
+}]

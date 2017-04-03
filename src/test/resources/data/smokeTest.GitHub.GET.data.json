@@ -1,0 +1,92 @@
+[
+	{
+		"TEST_id" : "GITH000001",
+		"TEST_name": "GitHub GET (!#NEON-GITH000001) : ",
+		"TEST_filename" : "SmokeTestGithub.GET.data.json",
+		"TEST_header" : "",
+		"TEST_param": "github"		
+
+	},
+	{
+		"TEST_id" : "GITH000002",
+		"TEST_name": "GitHub No File Specified (!#NEON-GITH000002) : ",
+		"TEST_filename" : "SmokeTestGithub.GET.data.json",
+		"TEST_header" : "",
+		"TEST_param": "github?repository="	
+
+
+	},
+	{
+		"TEST_id" : "GITH0000003",
+		"TEST_name": "GitHub file CIdata_thresholds_irgaMfcVali_frt.csv (!#NEON-GITH0000003) : ",
+		"TEST_filename" : "SmokeTestGithub.GET.data.json",
+		"TEST_header" : "",
+		"TEST_param": "github?repository=NEONInc/NEON-FIU-document-IPT&branch=EC-TES/thresholds&filename=CIdata_thresholds_irgaMfcVali_frt.csv"		
+
+	},
+	{
+		"TEST_id" : "GITH000004",
+		"TEST_name": "GitHub file CIdata_thresholds_irgaMfcVali_frt.csv (!#NEON-GITH000004) : ",
+		"TEST_filename" : "SmokeTestGithub.GET.data.json",
+		"TEST_header" : "",
+		"TEST_param": "github?branch=FUBAR/thresholds&filename=CIdata_thresholds_irgaMfcVali_frt.csv"		
+
+	},
+	{
+		"TEST_id" : "GITH000005",
+		"TEST_name": "GitHub repository NEONInc/NEON-FIU-document-IPT (!#NEON-GITH000005) : ",
+		"TEST_filename" : "SmokeTestGithub.GET.data.json",
+		"TEST_header" : "",
+		"TEST_param": "github?repository=NEONInc/NEON-FIU-document-IPT"	
+	},
+	{
+		"TEST_id" : "GITH000006",
+		"TEST_name": "Gitub file CIdata_thresholds_irgaMfcVali_frt.csv (!#NEON-GITH000006) : ",
+		"TEST_filename" : "SmokeTestGithub.GET.data.json",
+		"TEST_header" : "",
+		"TEST_param": "github?repository=NEONInc/NEON-FIU-document-IPT&filename=CIdata_thresholds_irgaMfcVali_frt.csv"		
+
+	},
+	{
+		"TEST_id" : "GITH000007",
+		"TEST_name": "GitHub branch EC-TES/thresholds (!#NEON-GITH000007) : ",
+		"TEST_filename" : "SmokeTestGithub.GET.data.json",
+		"TEST_header" : "",
+		"TEST_param": "github?repository=NEONInc/NEON-FIU-document-IPT&branch=EC-TES/thresholds"	
+
+	},
+	{
+		"TEST_id" : "GITH000008",
+		"TEST_name": "GitHub filename=CIdata_thresholds_irgaMfcVali_frt.csv (!#NEON-GITH000008) : ",
+		"TEST_filename" : "SmokeTestGithub.GET.data.json",
+		"TEST_header" : "",
+		"TEST_param": "github?repository=NONInc/NON-FIU-document-IPT&branch=EC-TES/thresholds&filename=CIdata_thresholds_irgaMfcVali_frt.csv"	
+	},
+	{
+		"TEST_id" : "GITH000009",
+		"TEST_name": "GitHub filename=CIdata_thresholds_irgaMfcVali_frt.csv (!#NEON-GITH000009) : ",
+		"TEST_filename" : "SmokeTestGithub.GET.data.json",
+		"TEST_header" : "",
+		"TEST_param": "github?repository=NEONInc/NEON-FIU-document-IPT&branch=FUBAR/thresholds&filename=CIdata_thresholds_irgaMfcVali_frt.csv"	
+
+
+	},
+	{
+		"TEST_id" : "GITH000010",
+		"TEST_name": "GitHub file CIdata_thresholds_irgaMfcVali_frt.csv (!#NEON-GITH000010) : ",
+		"TEST_filename" : "SmokeTestGithub.GET.data.json",
+		"TEST_header" : "",
+		"TEST_param": "github?foo=bar&repository=NEONInc/NEON-FIU-document-IPT&branch=EC-TES/thresholds&filename=CIdata_thresholds_irgaMfcVali_frt.csv"	
+
+
+	},
+	{
+		"TEST_id" : "GITH000011",
+		"TEST_name": "GitHub file EONDP120100_readme.txt (!#NEON-GITH000011) : ",
+		"TEST_filename" : "SmokeTestGithub.GET.data.json",
+		"TEST_header" : "",
+		"TEST_param": "github?repository=NEONInc/landWaterSoilIPT&branch=groundwater_elev/dataPubInfo&filename=NEONDP120100_readme.txt"	
+
+
+	}
+]

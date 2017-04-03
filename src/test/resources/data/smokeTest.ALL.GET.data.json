@@ -1,0 +1,1262 @@
+[
+  {
+    "TEST_id": "ASST000001",
+    "TEST_name": "Asset by MAC address GET (!#NEON-ASST000001) : ",
+    "TEST_filename": "SmokeTestAsset.GET.data.json",
+    "TEST_header": "application/vnd.neoninc.cds.asset-v1.0+xml",
+    "TEST_param": "assets?macaddress=E840F2E1E98F&verbose=true"
+  },
+  {
+    "TEST_id": "ASST000002",
+    "TEST_name": "Asset by ID GET (!#NEON-ASST000002) : ",
+    "TEST_filename": "SmokeTestAsset.GET.data.json",
+    "TEST_header": "application/vnd.neoninc.cds.asset-v1.0+xml",
+    "TEST_param": "assets/1526"
+  },
+  {
+    "TEST_id": "ASST000003",
+    "TEST_name": "Asset by AM Tag ID GET (!#NEON-ASST000003) : ",
+    "TEST_filename": "SmokeTestAsset.GET.data.json",
+    "TEST_header": "application/vnd.neoninc.cds.asset-v1.0+xml",
+    "TEST_param": "assets?tagid=21000000011342&verbose=true"
+  },
+  {
+    "TEST_id": "ASST000004",
+    "TEST_name": "Asset by asset UID GET (!#NEON-ASST000004) : ",
+    "TEST_filename": "SmokeTestAsset.GET.data.json",
+    "TEST_header": "application/vnd.neoninc.cds.asset-v1.0+xml",
+    "TEST_param": "assets?assetuid=1526&verbose=true"
+  },
+  {
+    "TEST_id": "ASST000005",
+    "TEST_name": "Asset list by MAC Address list GET (!#NEON-ASST000005) : ",
+    "TEST_filename": "SmokeTestAsset.GET.data.json",
+    "TEST_header": "application/vnd.neoninc.cds.assetlist-v1.0+xml",
+    "TEST_param": "assets?macaddress=E840F2E1E98F&verbose=true&macaddress=7CE044000047"
+  },
+  {
+    "TEST_id": "ASST000006",
+    "TEST_name": "Asset list by asset UID list GET (!#NEON-ASST000006) : ",
+    "TEST_filename": "SmokeTestAsset.GET.data.json",
+    "TEST_header": "application/vnd.neoninc.cds.assetlist-v1.0+xml",
+    "TEST_param": "assets?assetuid=1544&assetuid=1545&verbose=false"
+  },
+  {
+    "TEST_id": "ASST000007",
+    "TEST_name": "Asset list by AM Tag Id list GET (!#NEON-ASST000007) : ",
+    "TEST_filename": "SmokeTestAsset.GET.data.json",
+    "TEST_header": "application/vnd.neoninc.cds.assetlist-v1.0+xml",
+    "TEST_param": "assets?tagid=21000000011342&verbose=false&tagid=21000000051653"
+  },
+  {
+    "TEST_id": "ATTR000001",
+    "TEST_filename": "SmokeTestAttribute.GET.data.json",
+    "TEST_name": "ALL Attributes list GET (!#NEON-ATTR00001) : ",
+    "TEST_header": "application/vnd.neoninc.cds.attributelist-v1.0+xml",
+    "TEST_param": "attributes/?verbose=false"
+  },
+  {
+    "TEST_id": "ATTR000002",
+    "TEST_filename": "SmokeTestAttribute.GET.data.json",
+    "TEST_name": "Attribute by ID GET (!#NEON-ATTR00002) : ",
+    "TEST_header": "application/vnd.neoninc.cds.attribute-v1.0+xml",
+    "TEST_param": "attributes/1?verbose=true"
+  },
+  {
+    "TEST_id": "ATTR000003",
+    "TEST_filename": "SmokeTestAttribute.GET.data.json",
+    "TEST_name": "Attribute by NEON Named ID (NID) GET (!#NEON-ATTR00003) : ",
+    "TEST_header": "application/vnd.neoninc.cds.attribute-v1.0+xml",
+    "TEST_param": "attributes/?verbose=true&nid=D09CDAC6F82A4BCBE0430518640A5267"
+  },
+  {
+    "TEST_id": "ATTR000004",
+    "TEST_filename": "SmokeTestAttribute.GET.data.json",
+    "TEST_name": "Attribute by Attribute Name GET (!#NEON-ATTR00004) : ",
+    "TEST_header": "application/vnd.neoninc.cds.attribute-v1.0+xml",
+    "TEST_param": "attributes/?verbose=true&name=Required Asset Management UID"
+  },
+  {
+    "TEST_id": "CALV0000001",
+    "TEST_filename": "SmokeTestCALVal.GET.data.json",
+    "TEST_name": "GET CALVal by measurement stream id and L0 timestamp range GET (!#NEON-CALV0000001) : ",
+    "TEST_header": "application/vnd.neoninc.cds.calibrationactivitylist-v1.0+xml",
+    "TEST_param": "calibrationactivities?measurementstreamid=53120&l0starttimestamp=2012-03-20T12%3A13%3A14&l0endtimestamp=2016-07-21T12%3A13%3A14"
+  },
+  {
+    "TEST_id": "CALV0000002",
+    "TEST_filename": "SmokeTestCALVal.GET.data.json",
+    "TEST_name": "CALVal by ID GET (!#NEON-CALV0000002) : ",
+    "TEST_header": "application/vnd.neoninc.cds.calibrationactivity-v1.0+xml",
+    "TEST_param": "calibrationactivities/243"
+  },
+  {
+    "TEST_name": "Constant (!#NEON-CONS000001)",
+    "TEST_id": "CONS000001",
+    "TEST_filename": "SmokeTest.Constant.GET.data.json",
+    "TEST_header": "application/vnd.neoninc.cds.constant-v1.0+xml",
+    "TEST_param": "constants?name=DPMS Lowest Zenith Angle&date=2015-01-01"
+  },
+  {
+    "TEST_id": "DPCF000001",
+    "TEST_filename": "SmokeTestDPMSConfiguration.GET.data.json",
+    "TEST_name": "DPMS Configuration GET (!#NEON-DPCF000001) : ",
+    "TEST_header": "application/vnd.neoninc.cds.dpmsconfigurations-v1.0+xml",
+    "TEST_param": "dpmsconfigurations/3"
+  },
+  {
+    "TEST_id": "EVNT000001",
+    "TEST_filename": "SmokeTest.Event.GET.data.json",
+    "TEST_name": "Event by ID GET (!#NEON-EVNT000001) : ",
+    "TEST_header": "application/vnd.neoninc.cds.event-v1.0+xml",
+    "TEST_param": "events/111386554?verbose=true"
+  },
+  {
+    "TEST_id": "EVNT000002",
+    "TEST_filename": "SmokeTest.Event.GET.data.json",
+    "TEST_name": "Events list by range GET (!#NEON-EVNT000002) : ",
+    "TEST_header": "application/vnd.neoninc.cds.eventlist-v1.0+xml",
+    "TEST_param": "events?startindex=1&pagesize=10&verbose=false"
+  },
+  {
+    "TEST_id": "EVNT000003",
+    "TEST_filename": "SmokeTest.Event.GET.data.json",
+    "TEST_name": "Event list by date GET (!#NEON-EVNT000003) : ",
+    "TEST_header": "application/vnd.neoninc.cds.eventlist-v1.0+xml",
+    "TEST_param": "events/?verbose=true&date=2013-11-18T23:02:24.200Z"
+  },
+  {
+    "TEST_id": "EVNT000004",
+    "TEST_filename": "SmokeTest.Event.GET.data.json",
+    "TEST_name": "Event list by date range GET (!#NEON-EVNT000004) : ",
+    "TEST_header": "application/vnd.neoninc.cds.eventlist-v1.0+xml",
+    "TEST_param": "events/?verbose=true&startdate=2013-11-18&enddate=2013-11-20"
+  },
+  {
+    "TEST_id": "EVNT000005",
+    "TEST_filename": "SmokeTest.Event.GET.data.json",
+    "TEST_name": "Event list by event type GET (!#NEON-EVNT000005) : ",
+    "TEST_header": "application/vnd.neoninc.cds.eventlist-v1.0+xml",
+    "TEST_param": "events/?verbose=true&typeid=5"
+  },
+  {
+    "TEST_id": "EVNT000006",
+    "TEST_filename": "SmokeTest.Event.GET.data.json",
+    "TEST_name": "Event list by event type and date range GET (!#NEON-EVNT000006) : ",
+    "TEST_header": "application/vnd.neoninc.cds.eventlist-v1.0+xml",
+    "TEST_param": "events/?verbose=true&startdate=2013-11-18&enddate=2013-11-20&type=5"
+  },
+  {
+    "TEST_id": "EVNT000007",
+    "TEST_filename": "SmokeTest.Event.GET.data.json",
+    "TEST_name": "Events by parent type nid GET (!#NEON-EVNT000007) : ",
+    "TEST_header": "application/vnd.neoninc.cds.eventlist-v1.0+xml",
+    "TEST_param": "events?startdate=2015-01-18&enddate=2015-06-20&parenttypenid=14197D9FC08A4E059009AEA08799FEB7"
+  },
+  {
+    "TEST_id": "EVNT000008",
+    "TEST_filename": "SmokeTest.Event.GET.data.json",
+    "TEST_name": "Events by type nid and message type nid GET (!#NEON-EVNT000008) : ",
+    "TEST_header": "application/vnd.neoninc.cds.eventlist-v1.0+xml",
+    "TEST_param": "events?startdate=2015-01-18&enddate=2015-06-20&messagetypenid=D09CFC413D054CD0E0430518640AD104&typenid=D09CFC413D094CD0E0430518640AD104"
+  },
+  {
+    "TEST_id": "GROW000001",
+    "TEST_filename": "SmokeTest.GrowthForm.GET.data.json",
+    "TEST_name": "GET TaxonItems for growth form (!#NEON-GROW000001)",
+    "TEST_header": "application/vnd.neoninc.cds.taxonPDAlist-v1.0+xml",
+    "TEST_param": "growthforms/taxonitems?gfrmid=2"
+  },
+  {
+    "TEST_id": "GROW000002",
+    "TEST_filename": "SmokeTest.GrowthForm.GET.data.json",
+    "TEST_name": "GET Growth form (!#NEON-GROW000002)",
+    "TEST_header": "",
+    "TEST_param": "growthforms?taxonitemnid=6C3ED4896F1D47909AE3EE2ED3C64345"
+  },
+  {
+    "TEST_id": "GROW000003",
+    "TEST_filename": "SmokeTest.GrowthForm.GET.data.json",
+    "TEST_header": "application/vnd.neoninc.cds.growthformList-v1.0+xml",
+    "TEST_name": "Returns all growth forms (!#NEON-GROW000003)",
+    "TEST_param": "growthforms/all?verbose=true"
+  },
+  {
+    "TEST_id": "LOFV000001",
+    "TEST_name": "Get LOV by Name and Date (!#NEON-LOFV000001) : ",
+    "TEST_filename": "SmokeTest.ListOfValues.GET.data.json",
+    "TEST_header": "application/vnd.neoninc.cds.listOfValues-v1.0+xml",
+    "TEST_param": "listofvalues/List%20of%20H%20values?date=2013-07-18"
+  },
+  {
+    "TEST_id": "LOFV000002",
+    "TEST_name": "Get List Of Values by Name (!#NEON-LOFV000002) : ",
+    "TEST_filename": "SmokeTest.ListOfValues.GET.data.json",
+    "TEST_header": "application/vnd.neoninc.cds.listOfValues-v1.0+xml",
+    "TEST_param": "listofvalues/List%20of%20H%20values"
+  },
+  {
+    "TEST_id": "LOFV000003",
+    "TEST_name": "Get All Lost of Values (!#NEON-LOFV000003) : ",
+    "TEST_filename": "SmokeTest.ListOfValues.GET.data.json",
+    "TEST_header": "application/vnd.neoninc.cds.listOfValuesList-v1.0+xml",
+    "TEST_param": "listofvalues/list"
+  },
+  {
+    "TEST_id": "MEST000002",
+    "TEST_name": "Measurement Stream by observer id and date range (!#NEON-MEST000002) : ",
+    "TEST_filename": "SmokeTest.MeasurementStream.GET.data.json",
+    "TEST_header": "application/vnd.neoninc.cds.measurementStream-v1.0+xml",
+    "TEST_param": "measurementstreams?observerid=8&startdate=2012-11-10&enddate=2012-11-12"
+  },
+  {
+    "TEST_id": "MEST000003",
+    "TEST_name": "Measurement Stream list by Value Type ID (!#NEON-MEST000003) : ",
+    "TEST_filename": "SmokeTest.MeasurementStream.GET.data.json",
+    "TEST_header": "application/vnd.neoninc.cds.measurementStreamList-v1.0+xml",
+    "TEST_param": "measurementstreams?valuetypeid=22&verbose=false"
+  },
+  {
+    "TEST_id": "MEST000004",
+    "TEST_name": "Measurement Stream by Asset UID (!#NEON-MEST000004) : ",
+    "TEST_filename": "SmokeTest.MeasurementStream.GET.data.json",
+    "TEST_header": "application/vnd.neoninc.cds.measurementStreamList-v1.0+xml",
+    "TEST_param": "measurementstreams?assetuid=768"
+  },
+  {
+    "TEST_id": "MEST000005",
+    "TEST_name": "Measurement Stream list by Data Product Type ID (!#NEON-MEST000005) : ",
+    "TEST_filename": "SmokeTest.MeasurementStream.GET.data.json",
+    "TEST_header": "application/vnd.neoninc.cds.measurementStreamList-v1.0+xml",
+    "TEST_param": "measurementstreams?dataproducttypeid=24&verbose=false"
+  },
+  {
+    "TEST_id": "MEST000006",
+    "TEST_name": "Measurement Stream by name (!#NEON-MEST000006) : ",
+    "TEST_filename": "SmokeTest.MeasurementStream.GET.data.json",
+    "TEST_header": "application/vnd.neoninc.cds.measurementStream-v1.0+xml",
+    "TEST_param": "measurementstreams?name=NEON.D10.STER.DP0.00002.001.01319.000.030.000&verbose=true"
+  },
+  {
+    "TEST_id": "MEST000007",
+    "TEST_name": "Measurement Stream by observer id (!#NEON-MEST000007) : ",
+    "TEST_filename": "SmokeTest.MeasurementStream.GET.data.json",
+    "TEST_header": "application/vnd.neoninc.cds.measurementStreamList-v1.0+xml",
+    "TEST_param": "measurementstreams?observerid=8&verbose=true"
+  },
+  {
+    "TEST_id": "MEST000008",
+    "TEST_name": "Measurement Stream list by Attribute Type ID (!#NEON-MEST000008) : ",
+    "TEST_filename": "SmokeTest.MeasurementStream.GET.data.json",
+    "TEST_header": "application/vnd.neoninc.cds.measurementStreamList-v1.0+xml",
+    "TEST_param": "measurementstreams?attributetypeid=53&verbose=false"
+  },
+  {
+    "TEST_id": "MEST000010",
+    "TEST_name": "Measurement Stream list by level name and domain code and site code (!#NEON-MEST000010) : ",
+    "TEST_filename": "SmokeTest.MeasurementStream.GET.data.json",
+    "TEST_header": "application/vnd.neoninc.cds.measurementStreamList-v1.0+xml",
+    "TEST_param": "measurementstreams?levelname=Stream Level 0&domaincode=DOMAINCODE&sitecode=SITECODE&verbose=false"
+  },
+  {
+    "TEST_id": "MEST000011",
+    "TEST_name": "Measurement Stream by ID (!#NEON-MEST000011) : ",
+    "TEST_filename": "SmokeTest.MeasurementStream.GET.data.json",
+    "TEST_header": "application/vnd.neoninc.cds.measurementStream-v1.0+xml",
+    "TEST_param": "measurementstreams/22?verbose=true"
+  },
+  {
+    "TEST_id": "MESG000001",
+    "TEST_name": "Next unprocessed message (!#NEON-) : ",
+    "TEST_filename": "SmokeTest.Message.GET.data.json",
+    "TEST_header": "application/vnd.neoninc.cds.messagelist-v1.0+xml",
+    "TEST_param": "messages/nextunprocessed?verbose=false&count=50"
+  },
+  {
+    "TEST_id": "MESG000002",
+    "TEST_name": "Messages list by message processed flag and date range : Y (!#NEON-MESG000002) : ",
+    "TEST_filename": "SmokeTest.Message.GET.data.json",
+    "TEST_header": "application/vnd.neoninc.cds.messagelist-v1.0+xml",
+    "TEST_param": "messages?startdate=2015-06-22&enddate=2015-06-23&verbose=false&messageProcessedFlag=Y"
+  },
+  {
+    "TEST_id": "MESG000003",
+    "TEST_name": "Message list by message processed flag : E (!#NEON-MESG000003) : ",
+    "TEST_filename": "SmokeTest.Message.GET.data.json",
+    "TEST_header": "application/vnd.neoninc.cds.messagelist-v1.0+xml",
+    "TEST_param": "messages?messageProcessedFlag=E&verbose=false"
+  },
+  {
+    "TEST_id": "MESG000004",
+    "TEST_name": "Message list by date range (!#NEON-MESG000004) : ",
+    "TEST_filename": "SmokeTest.Message.GET.data.json",
+    "TEST_header": "application/vnd.neoninc.cds.messagelist-v1.0+xml",
+    "TEST_param": "messages?startdate=2015-05-28&enddate=2015-05-29&verbose=false"
+  },
+  {
+    "TEST_id": "MESG000005",
+    "TEST_name": "Message list by range (!#NEON-MESG000005) : ",
+    "TEST_filename": "SmokeTest.Message.GET.data.json",
+    "TEST_header": "application/vnd.neoninc.cds.messagelist-v1.0+xml",
+    "TEST_param": "messages?startindex=1&count=5&verbose=false"
+  },
+  {
+    "TEST_id": "MESG000006",
+    "TEST_name": "Count of Unprocessed Messages (!#NEON-MESG000006) : ",
+    "TEST_filename": "SmokeTest.Message.GET.data.json",
+    "TEST_header": "application/vnd.neoninc.cds.count-v1.0+xml",
+    "TEST_param": "messages/nextunprocessed"
+  },
+  {
+    "TEST_id": "MESG000007",
+    "TEST_name": "Message by JMS ID : E TypeID 2 (!#NEON-MESG000007) : ",
+    "TEST_filename": "SmokeTest.Message.GET.data.json",
+    "TEST_header": "application/vnd.neoninc.cds.message-v1.0+xml",
+    "TEST_param": "messages/?verbose=true&jmsmessageid=ID:368e79c2-d31c-11e5-bd75-15bd890a85f8"
+  },
+  {
+    "TEST_id": "MESG000008",
+    "TEST_name": "Message by JMS ID : Y TypeID 1 (!#NEON-MESG000008) : ",
+    "TEST_filename": "SmokeTest.Message.GET.data.json",
+    "TEST_header": "application/vnd.neoninc.cds.message-v1.0+xml",
+    "TEST_param": "messages/?verbose=true&jmsmessageid=ID:57f332ff-b2ec-11e5-9ca0-14feb5dfb7fe"
+  },
+  {
+    "TEST_id": "MESG000009",
+    "TEST_name": "Message by JMS ID : Y TypeID 2 (!#NEON-MESG000009) : ",
+    "TEST_filename": "SmokeTest.Message.GET.data.json",
+    "TEST_header": "application/vnd.neoninc.cds.message-v1.0+xml",
+    "TEST_param": "messages/?verbose=true&jmsmessageid=ID:93e5d677-bc10-11e5-ba5e-1d82e20290e9"
+  },
+  {
+    "TEST_id": "MESG000009a",
+    "TEST_name": "Message by JMS ID : Y TypeID 2449 (!#NEON-MESG000009a) : ",
+    "TEST_filename": "SmokeTest.Message.GET.data.json",
+    "TEST_header": "application/vnd.neoninc.cds.message-v1.0+xml",
+    "TEST_param": "messages/?verbose=true&jmsmessageid=ID:9e560927-19e2-11e5-a86d-0f933800dd38"
+  },
+  {
+    "TEST_id": "MESG000010",
+    "TEST_name": "Message by JMS ID : N TypeID 1 (!#NEON-MESG000010) : ",
+    "TEST_filename": "SmokeTest.Message.GET.data.json",
+    "TEST_header": "application/vnd.neoninc.cds.message-v1.0+xml",
+    "TEST_param": "messages/?verbose=true&jmsmessageid=ID:8944fb46-efb0-11e5-9430-14feb5dfb7fe"
+  },
+  {
+    "TEST_id": "MESG000011",
+    "TEST_name": "Message by ID : E TypeID 2 (!#NEON-MESG000011) : ",
+    "TEST_filename": "SmokeTest.Message.GET.data.json",
+    "TEST_header": "application/vnd.neoninc.cds.message-v1.0+xml",
+    "TEST_param": "messages/56588382?verbose=true"
+  },
+  {
+    "TEST_id": "MESG000012",
+    "TEST_name": "Message by ID : Y TypeID 1 (!#NEON-MESG000012) : ",
+    "TEST_filename": "SmokeTest.Message.GET.data.json",
+    "TEST_header": "application/vnd.neoninc.cds.message-v1.0+xml",
+    "TEST_param": "messages/59822334?verbose=true"
+  },
+  {
+    "TEST_id": "MESG000013",
+    "TEST_name": "Message by ID : Y TypeID 2 (!#NEON-MESG000013) : ",
+    "TEST_filename": "SmokeTest.Message.GET.data.json",
+    "TEST_header": "application/vnd.neoninc.cds.message-v1.0+xml",
+    "TEST_param": "messages/61809568?verbose=true"
+  },
+  {
+    "TEST_id": "MESG000013a",
+    "TEST_name": "Message by ID : Y TypeID 2449 (!#NEON-MESG000013a) : ",
+    "TEST_filename": "SmokeTest.Message.GET.data.json",
+    "TEST_header": "application/vnd.neoninc.cds.message-v1.0+xml",
+    "TEST_param": "messages/68954051?verbose=true"
+  },
+  {
+    "TEST_id": "MESG000014",
+    "TEST_name": "Message by ID : N TypeID 1 (!#NEON-MESG000014) : ",
+    "TEST_filename": "SmokeTest.Message.GET.data.json",
+    "TEST_header": "application/vnd.neoninc.cds.message-v1.0+xml",
+    "TEST_param": "messages/59849809?verbose=true"
+  },
+  {
+    "TEST_id": "MESG000015",
+    "TEST_name": "Message list by message processed flag : Y (!#NEON-MESG000015) : ",
+    "TEST_filename": "SmokeTest.Message.GET.data.json",
+    "TEST_header": "application/vnd.neoninc.cds.messagelist-v1.0+xml",
+    "TEST_param": "messages?messageProcessedFlag=Y&verbose=false"
+  },
+  {
+    "TEST_id": "MESG000016",
+    "TEST_name": "Message list by message processed flag : N (!#NEON-MESG000016) : ",
+    "TEST_filename": "SmokeTest.Message.GET.data.json",
+    "TEST_header": "application/vnd.neoninc.cds.messagelist-v1.0+xml",
+    "TEST_param": "messages?messageProcessedFlag=N&verbose=false"
+  },
+  {
+    "TEST_id": "MESG000017",
+    "TEST_name": "Messages list by message processed flag and date range : N (!#NEON-MESG000017) : ",
+    "TEST_filename": "SmokeTest.Message.GET.data.json",
+    "TEST_header": "application/vnd.neoninc.cds.messagelist-v1.0+xml",
+    "TEST_param": "messages?startdate=2016-01-01&enddate=2016-03-21&verbose=false&messageProcessedFlag=N"
+  },
+  {
+    "TEST_id": "MESG000018",
+    "TEST_name": "Messages list by message processed flag and date range : E (!#NEON-MESG000018) : ",
+    "TEST_filename": "SmokeTest.Message.GET.data.json",
+    "TEST_header": "application/vnd.neoninc.cds.messagelist-v1.0+xml",
+    "TEST_param": "messages?startdate=2016-01-16&enddate=2016-02-14&verbose=false&messageProcessedFlag=E"
+  },
+  {
+    "TEST_id": "MSGE000001",
+    "TEST_name": "Message Event list by type (!#NEON-MSGE000001) : ",
+    "TEST_filename": "SmokeTest.MessageEvent.GET.data.json",
+    "TEST_header": "application/vnd.neoninc.cds.messageeventlist-v1.0+xml",
+    "TEST_param": "messageevents?typeid=2474&verbose=false"
+  },
+  {
+    "TEST_id": "MSGE000002",
+    "TEST_name": "Message Event list between dates (!#NEON-MSGE000002) : ",
+    "TEST_filename": "SmokeTest.MessageEvent.GET.data.json",
+    "TEST_header": "application/vnd.neoninc.cds.messageeventlist-v1.0+xml",
+    "TEST_param": "messageevents?startdate=2016-01-01&enddate=2016-01-04&verbose=false"
+  },
+  {
+    "TEST_id": "MSGE000003",
+    "TEST_name": "Message Event list by date (!#NEON-MSGE000003) : ",
+    "TEST_filename": "SmokeTest.MessageEvent.GET.data.json",
+    "TEST_header": "application/vnd.neoninc.cds.messageeventlist-v1.0+xml",
+    "TEST_param": "messageevents?date=2016-01-01&verbose=false"
+  },
+  {
+    "TEST_id": "MSGE000004",
+    "TEST_name": "Message Event list for a message (!#NEON-MSGE000004) : ",
+    "TEST_filename": "SmokeTest.MessageEvent.GET.data.json",
+    "TEST_header": "application/vnd.neoninc.cds.messageeventlist-v1.0+xml",
+    "TEST_param": "messageevents?messageid=68954059&verbose=false"
+  },
+  {
+    "TEST_id": "MSGE000005",
+    "TEST_name": "Message Event list by type between dates : false(!#NEON-MSGE000005) : ",
+    "TEST_filename": "SmokeTest.MessageEvent.GET.data.json",
+    "TEST_header": "application/vnd.neoninc.cds.messageeventlist-v1.0+xml",
+    "TEST_param": "messageevents?startdate=2016-01-13&enddate=2016-04-11&typeid=2453&verbose=false"
+  },
+  {
+    "TEST_id": "MSGE000005a",
+    "TEST_name": "Message Event list by type between dates : true (!#NEON-MSGE000005a) : ",
+    "TEST_filename": "SmokeTest.MessageEvent.GET.data.json",
+    "TEST_header": "application/vnd.neoninc.cds.messageeventlist-v1.0+xml",
+    "TEST_param": "messageevents?startdate=2016-01-13&enddate=2016-04-11&typeid=2453&verbose=true"
+  },
+  {
+    "TEST_id": "MSGE000006",
+    "TEST_name": "Message Event list for a message between dates : false (!#NEON-MSGE000006) : ",
+    "TEST_filename": "SmokeTest.MessageEvent.GET.data.json",
+    "TEST_header": "application/vnd.neoninc.cds.messageeventlist-v1.0+xml",
+    "TEST_param": "messageevents?startdate=2016-01-01&enddate=2016-01-01&messageid=68954059&verbose=false"
+  },
+  {
+    "TEST_id": "MSGE000006a",
+    "TEST_name": "Message Event list for a message between dates : true (!#NEON-MSGE000006a) : ",
+    "TEST_filename": "SmokeTest.MessageEvent.GET.data.json",
+    "TEST_header": "application/vnd.neoninc.cds.messageeventlist-v1.0+xml",
+    "TEST_param": "messageevents?startdate=2016-01-01&enddate=2016-04-01&messageid=135464669&verbose=true"
+  },
+  {
+    "TEST_id": "MSGE000007",
+    "TEST_name": "Message Event by ID (!#NEON-MSGE000007) : ",
+    "TEST_filename": "SmokeTest.MessageEvent.GET.data.json",
+    "TEST_header": "application/vnd.neoninc.cds.messageevent-v1.0+xml",
+    "TEST_param": "messageevents/111386500?verbose=true"
+  },
+  {
+    "TEST_id": "MSGT000001",
+    "TEST_name": "All Message Transitions list : false(!#NEON-MSGT000001) : ",
+    "TEST_filename": "SmokeTest.MessageTransition.GET.data.json",
+    "TEST_header": "application/vnd.neoninc.cds.messagetransitionlist-v1.0+xml",
+    "TEST_param": "messagetransitions?verbose=false"
+  },
+  {
+    "TEST_id": "MSGT000002",
+    "TEST_name": "Message Transition by type NID (!#NEON-MSGT000002) : ",
+    "TEST_filename": "SmokeTest.MessageTransition.GET.data.json",
+    "TEST_header": "application/vnd.neoninc.cds.messagetransition-v1.0+xml",
+    "TEST_param": "messagetransitions/?verbose=true&typenid=947C36BC2A3F43DBA9C7C20C6F95B64D"
+  },
+  {
+    "TEST_id": "MSGT000003",
+    "TEST_name": "Message Transition by ID (!#NEON-MSGT000003) : ",
+    "TEST_filename": "SmokeTest.MessageTransition.GET.data.json",
+    "TEST_header": "application/vnd.neoninc.cds.messagetransition-v1.0+xml",
+    "TEST_param": "messagetransitions/28?verbose=true"
+  },
+  {
+    "TEST_id": "MSGT000004",
+    "TEST_name": "Message Transition by name (!#NEON-MSGT000004) : ",
+    "TEST_filename": "SmokeTest.MessageTransition.GET.data.json",
+    "TEST_header": "application/vnd.neoninc.cds.messagetransition-v1.0+xml",
+    "TEST_param": "messagetransitions/?verbose=true&name=TIS Message Ingest v1.4"
+  },
+  {
+    "TEST_id": "MSGT000005",
+    "TEST_name": "All Message Transitions list : true(!#NEON-MSGT000005) : ",
+    "TEST_filename": "SmokeTest.MessageTransition.GET.data.json",
+    "TEST_header": "application/vnd.neoninc.cds.messagetransitionlist-v1.0+xml",
+    "TEST_param": "messagetransitions?verbose=true"
+  },
+  {
+    "TEST_id": "MSGR000001",
+    "TEST_name": "Message Transition Run by ID (!#NEON-MSGR000001) : ",
+    "TEST_filename": "SmokeTest.MessageTransitionRun.GET.data.json",
+    "TEST_header": "application/vnd.neoninc.cds.messagetransitionrun-v1.0+xml",
+    "TEST_param": "messagetransitionruns/56599861?verbose=true"
+  },
+  {
+    "TEST_id": "MSGR000002",
+    "TEST_name": "Message Transition Run by message ID (!#NEON-MSGR000002) : ",
+    "TEST_filename": "SmokeTest.MessageTransitionRun.GET.data.json",
+    "TEST_header": "application/vnd.neoninc.cds.messagetransitionrunlist-v1.0+xml",
+    "TEST_param": "messagetransitionruns/?messageid=54615560&verbose=false"
+  },
+  {
+    "TEST_id": "METH000001",
+    "TEST_name": "List by Method template NID (!#NEON-METH000001) : ",
+    "TEST_filename": "SmokeTest.Method.GET.data.json",
+    "TEST_header": "application/vnd.neoninc.cds.methodlist-v1.0+xml",
+    "TEST_param": "methods?methodtemplatenid=B734E7ADA61E4FBEB2FD13295F00DE98&verbose=true"
+  },
+  {
+    "TEST_id": "METH000002",
+    "TEST_name": "Single by ID (!#NEON-METH000002) : ",
+    "TEST_filename": "SmokeTest.Method.GET.data.json",
+    "TEST_header": "application/vnd.neoninc.cds.method-v1.0+xml",
+    "TEST_param": "methods/5?verbose=true"
+  },
+  {
+    "TEST_id": "METH000003",
+    "TEST_name": "List by Method template ID (!#NEON-METH000003) : ",
+    "TEST_filename": "SmokeTest.Method.GET.data.json",
+    "TEST_header": "application/vnd.neoninc.cds.methodlist-v1.0+xml",
+    "TEST_param": "methods?methodtemplateid=1&verbose=true"
+  },
+  {
+    "TEST_id": "META000001",
+    "TEST_name": "List by method activity IDs (!#NEON-META000001) : ",
+    "TEST_filename": "SmokeTest.MethodActivity.GET.data.json",
+    "TEST_header": "application/vnd.neoninc.cds.methodactivitylist-v1.0+xml",
+    "TEST_param": "methodactivities?id=101&id=100&verbose=false"
+  },
+  {
+    "TEST_id": "META000002",
+    "TEST_name": "List by parent named location ID # date range (!#NEON-META000002) : ",
+    "TEST_filename": "SmokeTest.MethodActivity.GET.data.json",
+    "TEST_header": "application/vnd.neoninc.cds.methodactivitylist-v1.0+xml",
+    "TEST_param": "methodactivities?parentnamedlocationid=74&startdatebegin=2014-04-01&startdatecutoff=2014-04-07"
+  },
+  {
+    "TEST_id": "META000003",
+    "TEST_name": "Single by method activity ID (!#NEON-META000003) : ",
+    "TEST_filename": "SmokeTest.MethodActivity.GET.data.json",
+    "TEST_header": "application/vnd.neoninc.cds.methodactivity-v1.0+xml",
+    "TEST_param": "methodactivities/100?verbose=false"
+  },
+  {
+    "TEST_id": "META000004",
+    "TEST_name": "List by named location name # startdatebegin and startdatecutoff (!#NEON-META000004) : ",
+    "TEST_filename": "SmokeTest.MethodActivity.GET.data.json",
+    "TEST_header": "application/vnd.neoninc.cds.methodactivitylist-v1.0+xml",
+    "TEST_param": "methodactivities?startdatebegin=2014-09-08&startdatecutoff=2014-10-08&namedlocationname=ARIK"
+  },
+  {
+    "TEST_id": "META000005",
+    "TEST_name": "List by transactiondatebegin # transactiondatecutoff (!#NEON-META000005) : ",
+    "TEST_filename": "SmokeTest.MethodActivity.GET.data.json",
+    "TEST_header": "application/vnd.neoninc.cds.methodactivitylist-v1.0+xml",
+    "TEST_param": "methodactivities?transactiondatebegin=2015-04-06T00:00:00.000&transactiondatecutoff=2015-04-06T23:59:59.999"
+  },
+  {
+    "TEST_id": "META000006",
+    "TEST_name": "List by method activity GUIDs (!#NEON-META000006) : ",
+    "TEST_filename": "SmokeTest.MethodActivity.GET.data.json",
+    "TEST_header": "application/vnd.neoninc.cds.methodactivitylist-v1.0+xml",
+    "TEST_param": "methodactivities?guid=94499FE18336446E9FB2CD67DF56C0F3&guid=55178088EB54416593649CF5DEA9F1AE&verbose=false"
+  },
+  {
+    "TEST_id": "META000007",
+    "TEST_name": "List by method template id # startdatebegin # and startdatecutoff (!#NEON-META000007) : ",
+    "TEST_filename": "SmokeTest.MethodActivity.GET.data.json",
+    "TEST_header": "application/vnd.neoninc.cds.methodactivitylist-v1.0+xml",
+    "TEST_param": "methodactivities?methodtemplateid=3&startdatebegin=2015-05-01&startdatecutoff=2015-05-02"
+  },
+  {
+    "TEST_id": "META000008",
+    "TEST_name": "List by parent named location name # date range (!#NEON-META000008) : ",
+    "TEST_filename": "SmokeTest.MethodActivity.GET.data.json",
+    "TEST_header": "application/vnd.neoninc.cds.methodactivitylist-v1.0+xml",
+    "TEST_param": "methodactivities?parentnamedlocationname=CPER&startdatebegin=2014-04-01&startdatecutoff=2014-04-07"
+  },
+  {
+    "TEST_id": "META000009",
+    "TEST_name": "List by named location ID # startdatebegin # startdatecutoff (!#NEON-META000009) : ",
+    "TEST_filename": "SmokeTest.MethodActivity.GET.data.json",
+    "TEST_header": "application/vnd.neoninc.cds.methodactivitylist-v1.0+xml",
+    "TEST_param": "methodactivities?startdatebegin=2014-09-08&startdatecutoff=2014-10-08&namedlocationid=55"
+  },
+  {
+    "TEST_id": "MTAS000001",
+    "TEST_name": "List by sample type NID and named location name (!#NEON-MTAS000001) : ",
+    "TEST_filename": "SmokeTest.MethodActivitySample.GET.data.json",
+    "TEST_header": "",
+    "TEST_param": "methodactivitysamples?namedlocationname=WOOD_074.phenology.phe&typenid=0D90C5AD404C5475E053A08A640A28D1&verbose=true"
+  },
+  {
+    "TEST_id": "MTAS000002",
+    "TEST_name": "List by NID (will be only one) (!#NEON-MTAS000002) : ",
+    "TEST_filename": "SmokeTest.MethodActivitySample.GET.data.json",
+    "TEST_header": "",
+    "TEST_param": "methodactivitysamples?nid=96BA6B061E904F02ABBA12561E00BFD5&verbose=true"
+  },
+  {
+    "TEST_id": "MTAS000003",
+    "TEST_name": "List by method template ID # named location name (!#NEON-MTAS000003) : ",
+    "TEST_filename": "SmokeTest.MethodActivitySample.GET.data.json",
+    "TEST_header": "",
+    "TEST_param": "methodactivitysamples?methodtemplateid=63&namedlocationname=WOOD_074.phenology.phe&verbose=true"
+  },
+  {
+    "TEST_id": "MTAS000004",
+    "TEST_name": "List by method activity type NID and named location name (!#NEON-MTAS000004) : ",
+    "TEST_filename": "SmokeTest.MethodActivitySample.GET.data.json",
+    "TEST_header": "",
+    "TEST_param": "methodactivitysamples?namedlocationname=WOOD_074.phenology.phe&methodactivitytypenid=EF2DBACD93BA4D2AAB37BB79051587D6"
+  },
+  {
+    "TEST_id": "MTAS000005",
+    "TEST_name": "List by method template NID # named location name (!#NEON-MTAS000005) : ",
+    "TEST_filename": "SmokeTest.MethodActivitySample.GET.data.json",
+    "TEST_header": "",
+    "TEST_param": "methodactivitysamples?methodtemplatenid=A190615F9AC844A589DB8A3CB1D2464F&namedlocationname=WOOD_074.phenology.phe"
+  },
+  {
+    "TEST_id": "MTAS000006",
+    "TEST_name": "List wth all parameters (!#NEON-MTAS000006) : ",
+    "TEST_filename": "SmokeTest.MethodActivitySample.GET.data.json",
+    "TEST_header": "",
+    "TEST_param": "methodactivitysamples?tagid=NEON.PLA.D09.WOOD.06009&methodtemplateid=63&methodtemplatenid=A190615F9AC844A589DB8A3CB1D2464F&namedlocationname=WOOD_074.phenology.phe&methodactivitytypenid=EF2DBACD93BA4D2AAB37BB79051587D6&typenid=0D90C5AD404C5475E053A08A640A28D1&verbose=true"
+  },
+  {
+    "TEST_id": "MTAS000007",
+    "TEST_name": "List by tag (may be more than one) (!#NEON-MTAS000007) : ",
+    "TEST_filename": "SmokeTest.MethodActivitySample.GET.data.json",
+    "TEST_header": "",
+    "TEST_param": "methodactivitysamples?tag=NEON.PLA.D09.WOOD.06009&verbose=true"
+  },
+  {
+    "TEST_id": "MTRO000001",
+    "TEST_name": "GET method readouts by List by Method Stream ID (!#NEON-MTRO000001) : ",
+    "TEST_filename": "SmokeTest.MethodReadouts.GET.data.json",
+    "TEST_header": "application/vnd.neoninc.cds.methodReadoutlist-v1.0+xml",
+    "TEST_param": "methodreadouts?methodstreamid=145"
+  },
+  {
+    "TEST_id": "MTRO000002",
+    "TEST_name": "GET method readouts by Single by ID (!#NEON-MTRO000002) : ",
+    "TEST_filename": "SmokeTest.MethodReadouts.GET.data.json",
+    "TEST_header": "application/vnd.neoninc.cds.methodreadout-v1.0+xml",
+    "TEST_param": "methodreadouts/34"
+  },
+  {
+    "TEST_id": "MTRO000003",
+    "TEST_name": "GET method readouts by method template id # date range # level name # parent named location id# sample id(!#NEON-MTRO000003) : ",
+    "TEST_filename": "SmokeTest.MethodReadouts.GET.data.json",
+    "TEST_header": "",
+    "TEST_param": "methodreadouts?methodtemplateid=1&startdate=1999-01-27&enddate=2014-05-13&levelname=Stream%20Level%200&parentnamedlocationid=2&sampleid=48"
+  },
+  {
+    "TEST_id": "MTST000001",
+    "TEST_name": "List by method activity GUID (!#NEON-MTST000001) : ",
+    "TEST_filename": "SmokeTest.MethodStream.GET.data.json",
+    "TEST_header": "application/vnd.neoninc.cds.methodstreamlist-v1.0+xml",
+    "TEST_param": "methodstreams?methodactivityguid=F4AFA7E027E94A799754CB4A1FC36EC6"
+  },
+  {
+    "TEST_id": "MTST000002",
+    "TEST_name": "Single by ID (!#NEON-MTST000002) : ",
+    "TEST_filename": "SmokeTest.MethodStream.GET.data.json",
+    "TEST_header": "application/vnd.neoninc.cds.methodstream-v1.0+xml",
+    "TEST_param": "methodstreams/34"
+  },
+  {
+    "TEST_id": "MTST000003",
+    "TEST_name": "List by method activity ID (!#NEON-MTST000003) : ",
+    "TEST_filename": "SmokeTest.MethodStream.GET.data.json",
+    "TEST_header": "application/vnd.neoninc.cds.methodstreamlist-v1.0+xml",
+    "TEST_param": "methodstreams?methodactivityid=50"
+  },
+  {
+    "TEST_id": "MTTM000001",
+    "TEST_name": "List by type NID (!#NEON-MTTM000001) : ",
+    "TEST_filename": "SmokeTest.MethodTemplate.GET.data.json",
+    "TEST_header": "application/vnd.neoninc.cds.methodtemplatelist-v1.0+xml",
+    "TEST_param": "methodtemplates?typenid=43D68B54DA0B4FE8A05B806B0EE3835E"
+  },
+  {
+    "TEST_id": "MTTM000002",
+    "TEST_name": "Single by ID (!#NEON-MTTM000002) : ",
+    "TEST_filename": "SmokeTest.MethodTemplate.GET.data.json",
+    "TEST_header": "application/vnd.neoninc.cds.methodtemplate-v1.0+xml",
+    "TEST_param": "methodtemplates/1?verbose=true"
+  },
+  {
+    "TEST_id": "MTTM000003",
+    "TEST_name": "Single by NID (!#NEON-MTTM000003) : ",
+    "TEST_filename": "SmokeTest.MethodTemplate.GET.data.json",
+    "TEST_header": "application/vnd.neoninc.cds.methodtemplate-v1.0+xml",
+    "TEST_param": "methodtemplates?nid=B734E7ADA61E4FBEB2FD13295F00DE98&verbose=true"
+  },
+  {
+    "TEST_id": "MIME000001",
+    "TEST_name": "List of all Mime Types (!#NEON-MIME000001) : ",
+    "TEST_filename": "SmokeTest.MimeType.GET.data.json",
+    "TEST_header": "application/vnd.neoninc.cds.mimetypelist-v1.0+xml",
+    "TEST_param": "mimetypes"
+  },
+  {
+    "TEST_id": "MIME000002",
+    "TEST_name": "Mime Type by name (!#NEON-MIME000002) : ",
+    "TEST_filename": "SmokeTest.MimeType.GET.data.json",
+    "TEST_header": "application/vnd.neoninc.cds.mimetype-v1.0+xml",
+    "TEST_param": "mimetypes?name=Application/hdf5"
+  },
+  {
+    "TEST_id": "MISC000001",
+    "TEST_name": "Hello NEON (!#NEON-MISC000001) : ",
+    "TEST_filename": "SmokeTest.MISC0.GET.data.json",
+    "TEST_header": "",
+    "TEST_param": "neon"
+  },
+  {
+    "TEST_id": "MISC000002",
+    "TEST_name": "CDS Version (!#NEON-MISC000002) : ",
+    "TEST_filename": "SmokeTest.MISC0.GET.data.json",
+    "TEST_header": "application/xml",
+    "TEST_param": "version"
+  },
+  {
+    "TEST_id": "NLOC000002",
+    "TEST_name": "Named Location by ID w/ Flags (!#NEON-NLOC000002) : ",
+    "TEST_filename": "SmokeTest.NamedLocation.GET.data.json",
+    "TEST_header": "application/vnd.neoninc.cds.namedlocation-v1.0+xml",
+    "TEST_param": "namedlocations/29?getCurrentLocationHistory=true&getNamedLocationPropertyValues=true"
+  },
+  {
+    "TEST_id": "NLOC000004",
+    "TEST_name": "Named Location by AM location ID (!#NEON-NLOC000004) : ",
+    "TEST_filename": "SmokeTest.NamedLocation.GET.data.json",
+    "TEST_header": "application/vnd.neoninc.cds.namedlocation-v1.0+xml",
+    "TEST_param": "namedlocations?mxlocationsid=170&verbose=true"
+  },
+  {
+    "TEST_id": "NLOC000005",
+    "TEST_name": "Named Location by AM location code (!#NEON-NLOC000005) : ",
+    "TEST_filename": "SmokeTest.NamedLocation.GET.data.json",
+    "TEST_header": "application/vnd.neoninc.cds.namedlocation-v1.0+xml",
+    "TEST_param": "namedlocations?mxlocationcode=D03&verbose=true"
+  },
+  {
+    "TEST_id": "NLOC000006",
+    "TEST_name": "Named Locations list by type (!#NEON-NLOC000006) : ",
+    "TEST_filename": "SmokeTest.NamedLocation.GET.data.json",
+    "TEST_header": "application/vnd.neoninc.cds.namedlocationlist-v1.0+xml",
+    "TEST_param": "namedlocations?verbose=false&typeid=25"
+  },
+  {
+    "TEST_id": "NLOC000007",
+    "TEST_name": "List of all NEON sites (!#NEON-NLOC000007) : ",
+    "TEST_filename": "SmokeTest.NamedLocation.GET.data.json",
+    "TEST_header": "application/vnd.neoninc.cds.namedlocationlist-v1.0+xml",
+    "TEST_param": "namedlocations/sites"
+  },
+  {
+    "TEST_id": "NLOC000008",
+    "TEST_name": "Named Location by name (!#NEON-NLOC000008) : ",
+    "TEST_filename": "SmokeTest.NamedLocation.GET.data.json",
+    "TEST_header": "application/vnd.neoninc.cds.namedlocation-v1.0+xml",
+    "TEST_param": "namedlocations?name=HARV&verbose=false"
+  },
+  {
+    "TEST_id": "NLOC000009",
+    "TEST_name": "Named Location by ID (!#NEON-NLOC000009) : ",
+    "TEST_filename": "SmokeTest.NamedLocation.GET.data.json",
+    "TEST_header": "application/vnd.neoninc.cds.namedlocation-v1.0+xml",
+    "TEST_param": "namedlocations/29"
+  },
+  {
+    "TEST_id": "NLOC000010",
+    "TEST_name": "Named Locations list by type (!#NEON-NLOC000010) : ",
+    "TEST_filename": "SmokeTest.NamedLocation.GET.data.json",
+    "TEST_header": "application/vnd.neoninc.cds.namedlocationlist-v1.0+xml",
+    "TEST_param": "namedlocations?verbose=false&typeid=25"
+  },
+  {
+    "TEST_id": "OBSR000001",
+    "TEST_name": "Observer by location ID and date (!#NEON-) : OBSR000001",
+    "TEST_filename": "SmokeTest.Observer.GET.data.json",
+    "TEST_header": "application/vnd.neoninc.cds.observerlist-v1.0+xml",
+    "TEST_param": "observers/?locationid=1&verbose=false&date=2013-10-10"
+  },
+  {
+    "TEST_id": "OBSR000002",
+    "TEST_name": "Observer by location ID (!#NEON-OBSR000002) : ",
+    "TEST_filename": "SmokeTest.Observer.GET.data.json",
+    "TEST_header": "application/vnd.neoninc.cds.observerlist-v1.0+xml",
+    "TEST_param": "observers/?locationid=1&verbose=false"
+  },
+  {
+    "TEST_id": "OBSR000003",
+    "TEST_name": "Observer by location ID and date range (!#NEON-OBSR000003) : ",
+    "TEST_filename": "SmokeTest.Observer.GET.data.json",
+    "TEST_header": "application/vnd.neoninc.cds.observerlist-v1.0+xml",
+    "TEST_param": "observers/?locationid=39&verbose=false&startdate=2012-08-20&enddate=2013-04-25"
+  },
+  {
+    "TEST_id": "OBSR000004",
+    "TEST_name": "Observer by asset UID (!#NEON-OBSR000004) : ",
+    "TEST_filename": "SmokeTest.Observer.GET.data.json",
+    "TEST_header": "application/vnd.neoninc.cds.observer-v1.0+xml",
+    "TEST_param": "observers?verbose=true&assetuid=768"
+  },
+  {
+    "TEST_id": "OBSR000005",
+    "TEST_name": "Observer by parent ID and data stream ID (!#NEON-OBSR000005) : ",
+    "TEST_filename": "SmokeTest.Observer.GET.data.json",
+    "TEST_header": "application/vnd.neoninc.cds.observer-v1.0+xml",
+    "TEST_param": "observers?parentid=1&verbose=true&datastreamid=1"
+  },
+  {
+    "TEST_id": "OBSR000006",
+    "TEST_name": "Observer by ID (!#NEON-OBSR000006) : ",
+    "TEST_filename": "SmokeTest.Observer.GET.data.json",
+    "TEST_header": "",
+    "TEST_param": "observers/1"
+  },
+  {
+    "TEST_id": "TMPL000001",
+    "TEST_name": "List of Template Items (!#NEON-TMPL000001) : ",
+    "TEST_filename": "SmokeTest.Template.GET.data.json",
+    "TEST_header": "application/vnd.neoninc.cds.templateitemlist-v1.0+xml",
+    "TEST_param": "templates/1/items"
+  },
+  {
+    "TEST_id": "TMPL000002",
+    "TEST_name": "List of Template Items for a given template # asset item ID # and asset release ID (!#NEON-TMPL000002) : ",
+    "TEST_filename": "SmokeTest.Template.GET.data.json",
+    "TEST_header": "application/vnd.neoninc.cds.templateitem-v1.0+xml",
+    "TEST_param": "templates/1/items?assetItemId=CA02470000&assetReleaseId=REVA"
+  },
+  {
+    "TEST_id": "TMPL000003",
+    "TEST_name": "Template by observer ID (!#NEON-TMPL000003) : ",
+    "TEST_filename": "SmokeTest.Template.GET.data.json",
+    "TEST_header": "application/vnd.neoninc.cds.template-v1.0+xml",
+    "TEST_param": "templates?observerid=48"
+  },
+  {
+    "TEST_id": "TMPL000004",
+    "TEST_name": "Template by name (!#NEON-TMPL000004) : ",
+    "TEST_filename": "SmokeTest.Template.GET.data.json",
+    "TEST_header": "application/vnd.neoninc.cds.template-v1.0+xml",
+    "TEST_param": "templates?name=ASSEMBLY ASPIRATED FAN NEON.DOC.000562 REVA"
+  },
+  {
+    "TEST_id": "TRAN000001",
+    "TEST_name": "Transition Business Object by name (!#NEON-TRAN000001) : ",
+    "TEST_filename": "SmokeTest.Transition.GET.data.json",
+    "TEST_header": "application/vnd.neoninc.cds.transition-v1.0+xml",
+    "TEST_param": "transitions/byname?name=MCD43B4"
+  },
+  {
+    "TEST_id": "TRAN000002",
+    "TEST_name": "GET all Transitions (!#NEON-TRAN000002) : ",
+    "TEST_filename": "SmokeTest.Transition.GET.data.json",
+    "TEST_header": "application/vnd.neoninc.cds.transitionlist-v1.0+xml",
+    "TEST_param": "transitions"
+  },
+  {
+    "TEST_id": "TRAN000003",
+    "TEST_name": "Transition by name (!#NEON-TRAN000003) : ",
+    "TEST_filename": "SmokeTest.Transition.GET.data.json",
+    "TEST_header": "application/vnd.neoninc.cds.transition-v1.0+xml",
+    "TEST_param": "transitions?name=MCD43B4"
+  },
+  {
+    "TEST_id": "TRAN000004",
+    "TEST_name": "Transition by ID (!#NEON-TRAN000004) : ",
+    "TEST_filename": "SmokeTest.Transition.GET.data.json",
+    "TEST_header": "application/vnd.neoninc.cds.transition-v1.0+xml",
+    "TEST_param": "transitions/5"
+  },
+  {
+    "TEST_id": "TREX000001",
+    "TEST_name": "Active transition executions (!#NEON-TREX000001) : ",
+    "TEST_filename": "SmokeTest.TransitionExecution.GET.data.json",
+    "TEST_header": "application/vnd.neoninc.cds.transitionexecutionlist-v1.0+xml",
+    "TEST_param": "transitionexecutions?namelocationname=CPER&verbose=false"
+  },
+  {
+    "TEST_id": "TREX000002",
+    "TEST_name": "Transition Business Execution Object by id (!#NEON-TREX000002) : ",
+    "TEST_filename": "SmokeTest.TransitionExecution.GET.data.json",
+    "TEST_header": "application/vnd.neoninc.cds.transitionexecutionbusiness-v1.0+xml",
+    "TEST_param": "transitionexecutions/3"
+  },
+  {
+    "TEST_id": "TXON002001a",
+    "TEST_name": "GET taxon typenid SMALL_MAMMAL(!#NEON-TXON002001a) : ",
+    "TEST_filename": "SmokeTest.TaxonPDA.GET.data.json",
+    "TEST_header": "application/vnd.neoninc.cds.taxonPDA-v1.0+xml",
+    "TEST_param": "taxon/pda?taxonitemtypenid=2794EBB4631D4D09988699C0E1A71EA5&taxonitemcode=AMIN"
+  },
+  {
+    "TEST_id": "TXON002001b",
+    "TEST_name": "GET taxon typenid SMALL_MAMMAL(!#NEON-TXON002001b) : ",
+    "TEST_filename": "SmokeTest.TaxonPDA.GET.data.json",
+    "TEST_header": "application/vnd.neoninc.cds.taxonPDA-v1.0+xml",
+    "TEST_param": "taxon/pda?taxonitemtypenid=2794EBB4631D4D09988699C0E1A71EA5&taxonitemcode=ARLO"
+  },
+  {
+    "TEST_id": "TXON002001c",
+    "TEST_name": "GET taxon typenid SMALL_MAMMAL(!#NEON-TXON002001c) : ",
+    "TEST_filename": "SmokeTest.TaxonPDA.GET.data.json",
+    "TEST_header": "application/vnd.neoninc.cds.taxonPDA-v1.0+xml",
+    "TEST_param": "taxon/pda?taxonitemtypenid=2794EBB4631D4D09988699C0E1A71EA5&taxonitemcode=AMHA"
+  },
+  {
+    "TEST_id": "TXON002001d",
+    "TEST_name": "GET taxon typenid SMALL_MAMMAL(!#NEON-TXON002001d) : ",
+    "TEST_filename": "SmokeTest.TaxonPDA.GET.data.json",
+    "TEST_header": "application/vnd.neoninc.cds.taxonPDA-v1.0+xml",
+    "TEST_param": "taxon/pda?taxonitemtypenid=2794EBB4631D4D09988699C0E1A71EA5&taxonitemcode=AMLT"
+  },
+  {
+    "TEST_id": "TXON002001e",
+    "TEST_name": "GET taxon typenid SMALL_MAMMAL(!#NEON-TXON002001e) : ",
+    "TEST_filename": "SmokeTest.TaxonPDA.GET.data.json",
+    "TEST_header": "application/vnd.neoninc.cds.taxonPDA-v1.0+xml",
+    "TEST_param": "taxon/pda?taxonitemtypenid=2794EBB4631D4D09988699C0E1A71EA5&taxonitemcode=BLBR"
+  },
+  {
+    "TEST_id": "TXON002002a",
+    "TEST_name": "GET taxon typenid BEETLE (!#NEON-TXON002002a) : ",
+    "TEST_filename": "SmokeTest.TaxonPDA.GET.data.json",
+    "TEST_header": "application/vnd.neoninc.cds.taxonPDA-v1.0+xml",
+    "TEST_param": "taxon/pda?taxonitemtypenid=54EE569DCCBB4088A87DF46D93085859&taxonitemcode=ABAPAR"
+  },
+  {
+    "TEST_id": "TXON002002b",
+    "TEST_name": "GET taxon typenid BEETLE (!#NEON-TXON002002b) : ",
+    "TEST_filename": "SmokeTest.TaxonPDA.GET.data.json",
+    "TEST_header": "application/vnd.neoninc.cds.taxonPDA-v1.0+xml",
+    "TEST_param": "taxon/pda?taxonitemtypenid=54EE569DCCBB4088A87DF46D93085859&taxonitemcode=ACUSP1"
+  },
+  {
+    "TEST_id": "TXON002002c",
+    "TEST_name": "GET taxon typenid BEETLE (!#NEON-TXON002002c) : ",
+    "TEST_filename": "SmokeTest.TaxonPDA.GET.data.json",
+    "TEST_header": "application/vnd.neoninc.cds.taxonPDA-v1.0+xml",
+    "TEST_param": "taxon/pda?taxonitemtypenid=54EE569DCCBB4088A87DF46D93085859&taxonitemcode=ACUSP"
+  },
+  {
+    "TEST_id": "TXON002002d",
+    "TEST_name": "GET taxon typenid BEETLE (!#NEON-TXON002002d) : ",
+    "TEST_filename": "SmokeTest.TaxonPDA.GET.data.json",
+    "TEST_header": "application/vnd.neoninc.cds.taxonPDA-v1.0+xml",
+    "TEST_param": "taxon/pda?taxonitemtypenid=54EE569DCCBB4088A87DF46D93085859&taxonitemcode=AGOANC"
+  },
+  {
+    "TEST_id": "TXON002002e",
+    "TEST_name": "GET taxon typenid BEETLE (!#NEON-TXON002002e) : ",
+    "TEST_filename": "SmokeTest.TaxonPDA.GET.data.json",
+    "TEST_header": "application/vnd.neoninc.cds.taxonPDA-v1.0+xml",
+    "TEST_param": "taxon/pda?taxonitemtypenid=54EE569DCCBB4088A87DF46D93085859&taxonitemcode=ACULON"
+  },
+  {
+    "TEST_id": "TXON002003a",
+    "TEST_name": "GET taxon typenid HERPETOLOGY(!#NEON-TXON002003a) : ",
+    "TEST_filename": "SmokeTest.TaxonPDA.GET.data.json",
+    "TEST_header": "application/vnd.neoninc.cds.taxonPDA-v1.0+xml",
+    "TEST_param": "taxon/pda?taxonitemtypenid=689D90F18AC948778E8BCCAD3129AB7D&taxonitemcode=ACRBLA"
+  },
+  {
+    "TEST_id": "TXON002003b",
+    "TEST_name": "GET taxon typenid HERPETOLOGY(!#NEON-TXON002003b) : ",
+    "TEST_filename": "SmokeTest.TaxonPDA.GET.data.json",
+    "TEST_header": "application/vnd.neoninc.cds.taxonPDA-v1.0+xml",
+    "TEST_param": "taxon/pda?taxonitemtypenid=689D90F18AC948778E8BCCAD3129AB7D&taxonitemcode=ACRCRE2"
+  },
+  {
+    "TEST_id": "TXON002003c",
+    "TEST_name": "GET taxon typenid HERPETOLOGY(!#NEON-TXON002003c) : ",
+    "TEST_filename": "SmokeTest.TaxonPDA.GET.data.json",
+    "TEST_header": "application/vnd.neoninc.cds.taxonPDA-v1.0+xml",
+    "TEST_param": "taxon/pda?taxonitemtypenid=689D90F18AC948778E8BCCAD3129AB7D&taxonitemcode=ACRISP"
+  },
+  {
+    "TEST_id": "TXON002003d",
+    "TEST_name": "GET taxon typenid HERPETOLOGY(!#NEON-TXON002003d) : ",
+    "TEST_filename": "SmokeTest.TaxonPDA.GET.data.json",
+    "TEST_header": "application/vnd.neoninc.cds.taxonPDA-v1.0+xml",
+    "TEST_param": "taxon/pda?taxonitemtypenid=689D90F18AC948778E8BCCAD3129AB7D&taxonitemcode=EUMOBS"
+  },
+  {
+    "TEST_id": "TXON002003e",
+    "TEST_name": "GET taxon typenid HERPETOLOGY(!#NEON-TXON002003e) : ",
+    "TEST_filename": "SmokeTest.TaxonPDA.GET.data.json",
+    "TEST_header": "application/vnd.neoninc.cds.taxonPDA-v1.0+xml",
+    "TEST_param": "taxon/pda?taxonitemtypenid=689D90F18AC948778E8BCCAD3129AB7D&taxonitemcode=EURBIS"
+  },
+  {
+    "TEST_id": "TXON002004a",
+    "TEST_name": "GET taxon typenid PLANT (!#NEON-TXON002004a) : ",
+    "TEST_filename": "SmokeTest.TaxonPDA.GET.data.json",
+    "TEST_header": "application/vnd.neoninc.cds.taxonPDA-v1.0+xml",
+    "TEST_param": "taxon/pda?taxonitemtypenid=6C95F1497C6847D09C76F9B8F30F54B1&taxonitemcode=2PLANT"
+  },
+  {
+    "TEST_id": "TXON002004b",
+    "TEST_name": "GET taxon typenid PLANT (!#NEON-TXON002004b) : ",
+    "TEST_filename": "SmokeTest.TaxonPDA.GET.data.json",
+    "TEST_header": "application/vnd.neoninc.cds.taxonPDA-v1.0+xml",
+    "TEST_param": "taxon/pda?taxonitemtypenid=6C95F1497C6847D09C76F9B8F30F54B1&taxonitemcode=ABAB70"
+  },
+  {
+    "TEST_id": "TXON002004c",
+    "TEST_name": "GET taxon typenid PLANT (!#NEON-TXON002004c) : ",
+    "TEST_filename": "SmokeTest.TaxonPDA.GET.data.json",
+    "TEST_header": "application/vnd.neoninc.cds.taxonPDA-v1.0+xml",
+    "TEST_param": "taxon/pda?taxonitemtypenid=6C95F1497C6847D09C76F9B8F30F54B1&taxonitemcode=ACTINSPP"
+  },
+  {
+    "TEST_id": "TXON002004d",
+    "TEST_name": "GET taxon typenid PLANT (!#NEON-TXON002004d) : ",
+    "TEST_filename": "SmokeTest.TaxonPDA.GET.data.json",
+    "TEST_header": "application/vnd.neoninc.cds.taxonPDA-v1.0+xml",
+    "TEST_param": "taxon/pda?taxonitemtypenid=6C95F1497C6847D09C76F9B8F30F54B1&taxonitemcode=ACTINISPP"
+  },
+  {
+    "TEST_id": "TXON002004e",
+    "TEST_name": "GET taxon typenid PLANT (!#NEON-TXON002004e) : ",
+    "TEST_filename": "SmokeTest.TaxonPDA.GET.data.json",
+    "TEST_header": "application/vnd.neoninc.cds.taxonPDA-v1.0+xml",
+    "TEST_param": "taxon/pda?taxonitemtypenid=6C95F1497C6847D09C76F9B8F30F54B1&taxonitemcode=ACTH2"
+  },
+  {
+    "TEST_id": "TXON002005a",
+    "TEST_name": "GET taxon typenid MOSQUITO (!#NEON-TXON002005a) : ",
+    "TEST_filename": "SmokeTest.TaxonPDA.GET.data.json",
+    "TEST_header": "application/vnd.neoninc.cds.taxonPDA-v1.0+xml",
+    "TEST_param": "taxon/pda?taxonitemtypenid=20F17E14AB23485291760F8106AC4886&taxonitemcode=AEDABO"
+  },
+  {
+    "TEST_id": "TXON002005b",
+    "TEST_name": "GET taxon typenid MOSQUITO (!#NEON-TXON002005b) : ",
+    "TEST_filename": "SmokeTest.TaxonPDA.GET.data.json",
+    "TEST_header": "application/vnd.neoninc.cds.taxonPDA-v1.0+xml",
+    "TEST_param": "taxon/pda?taxonitemtypenid=20F17E14AB23485291760F8106AC4886&taxonitemcode=AEDABS"
+  },
+  {
+    "TEST_id": "TXON002005c",
+    "TEST_name": "GET taxon typenid MOSQUITO (!#NEON-TXON002005c) : ",
+    "TEST_filename": "SmokeTest.TaxonPDA.GET.data.json",
+    "TEST_header": "application/vnd.neoninc.cds.taxonPDA-v1.0+xml",
+    "TEST_param": "taxon/pda?taxonitemtypenid=20F17E14AB23485291760F8106AC4886&taxonitemcode=AEDACR"
+  },
+  {
+    "TEST_id": "TXON002005d",
+    "TEST_name": "GET taxon typenid MOSQUITO (!#NEON-TXON002005d) : ",
+    "TEST_filename": "SmokeTest.TaxonPDA.GET.data.json",
+    "TEST_header": "application/vnd.neoninc.cds.taxonPDA-v1.0+xml",
+    "TEST_param": "taxon/pda?taxonitemtypenid=20F17E14AB23485291760F8106AC4886&taxonitemcode=AEDAEG"
+  },
+  {
+    "TEST_id": "TXON002005e",
+    "TEST_name": "GET taxon typenid MOSQUITO (!#NEON-TXON002005e) : ",
+    "TEST_filename": "SmokeTest.TaxonPDA.GET.data.json",
+    "TEST_header": "application/vnd.neoninc.cds.taxonPDA-v1.0+xml",
+    "TEST_param": "taxon/pda?taxonitemtypenid=20F17E14AB23485291760F8106AC4886&taxonitemcode=CULNIG4"
+  },
+  {
+    "TEST_id": "TXON002006a",
+    "TEST_name": "GET taxon typenid MOSQUITO_PATHOGEN (!#NEON-TXON002006a) : ",
+    "TEST_filename": "SmokeTest.TaxonPDA.GET.data.json",
+    "TEST_header": "application/vnd.neoninc.cds.taxonPDA-v1.0+xml",
+    "TEST_param": "taxon/pda?taxonitemtypenid=1596DBAE9C8041E3AA3ECAF58590FD25&taxonitemcode=BUNV"
+  },
+  {
+    "TEST_id": "TXON002006b",
+    "TEST_name": "GET taxon typenid MOSQUITO_PATHOGEN (!#NEON-TXON002006b) : ",
+    "TEST_filename": "SmokeTest.TaxonPDA.GET.data.json",
+    "TEST_header": "application/vnd.neoninc.cds.taxonPDA-v1.0+xml",
+    "TEST_param": "taxon/pda?taxonitemtypenid=1596DBAE9C8041E3AA3ECAF58590FD25&taxonitemcode=CEV"
+  },
+  {
+    "TEST_id": "TXON002006c",
+    "TEST_name": "GET taxon typenid MOSQUITO_PATHOGEN (!#NEON-TXON002006c) : ",
+    "TEST_filename": "SmokeTest.TaxonPDA.GET.data.json",
+    "TEST_header": "application/vnd.neoninc.cds.taxonPDA-v1.0+xml",
+    "TEST_param": "taxon/pda?taxonitemtypenid=1596DBAE9C8041E3AA3ECAF58590FD25&taxonitemcode=VEEV"
+  },
+  {
+    "TEST_id": "TXON002006d",
+    "TEST_name": "GET taxon typenid MOSQUITO_PATHOGEN (!#NEON-TXON002006d) : ",
+    "TEST_filename": "SmokeTest.TaxonPDA.GET.data.json",
+    "TEST_header": "application/vnd.neoninc.cds.taxonPDA-v1.0+xml",
+    "TEST_param": "taxon/pda?taxonitemtypenid=1596DBAE9C8041E3AA3ECAF58590FD25&taxonitemcode=WEEV"
+  },
+  {
+    "TEST_id": "TXON002006e",
+    "TEST_name": "GET taxon typenid MOSQUITO_PATHOGEN (!#NEON-TXON002006e) : ",
+    "TEST_filename": "SmokeTest.TaxonPDA.GET.data.json",
+    "TEST_header": "application/vnd.neoninc.cds.taxonPDA-v1.0+xml",
+    "TEST_param": "taxon/pda?taxonitemtypenid=1596DBAE9C8041E3AA3ECAF58590FD25&taxonitemcode=ZEGV"
+  },
+  {
+    "TEST_id": "TYPE000001",
+    "TEST_name": "List of all Types by TypeType ID (!#NEON-TYPE000001) : ",
+    "TEST_filename": "SmokeTest.Type.GET.data.json",
+    "TEST_header": "application/vnd.neoninc.cds.Typelist-v1.0+xml",
+    "TEST_param": "types?verbose=false&TYPE0TYPE0id=1"
+  },
+  {
+    "TEST_id": "TYPE000002",
+    "TEST_name": "Count of all Types (!#NEON-TYPE000002) : ",
+    "TEST_filename": "SmokeTest.Type.GET.data.json",
+    "TEST_header": "application/vnd.neoninc.cds.count-v1.0+xml",
+    "TEST_param": "types"
+  },
+  {
+    "TEST_id": "TYPE000003",
+    "TEST_name": "Type by name (!#NEON-TYPE000003) : ",
+    "TEST_filename": "SmokeTest.Type.GET.data.json",
+    "TEST_header": "application/vnd.neoninc.cds.type-v1.0+xml",
+    "TEST_param": "types?name=ADMIN&verbose=true"
+  },
+  {
+    "TEST_id": "TYPE000004",
+    "TEST_name": "Type by NID (!#NEON-TYPE000004) : ",
+    "TEST_filename": "SmokeTest.Type.GET.data.json",
+    "TEST_header": "application/vnd.neoninc.cds.type-v1.0+xml",
+    "TEST_param": "types?nid=D09CFC413D1D4CD0E0430518640AD104&verbose=true"
+  },
+  {
+    "TEST_id": "TYPE000005",
+    "TEST_name": "List of all Types (!#NEON-TYPE000005) : ",
+    "TEST_filename": "SmokeTest.Type.GET.data.json",
+    "TEST_header": "application/vnd.neoninc.cds.Typelist-v1.0+xml",
+    "TEST_param": "types?verbose=false"
+  },
+  {
+    "TEST_id": "TYPE000006",
+    "TEST_name": "GET Type by ID (!#NEON-TYPE000006) : ",
+    "TEST_filename": "SmokeTest.Type.GET.data.json",
+    "TEST_header": "application/vnd.neoninc.cds.type-v1.0+xml",
+    "TEST_param": "types/1?verbose=true"
+  },
+  {
+    "TEST_id": "TYTY000001",
+    "TEST_name": "GETs list of all TypeTypes (!#NEON-TYTY000001) : ",
+    "TEST_filename": "SmokeTest.TypeType.GET.data.json",
+    "TEST_header": "application/vnd.neoninc.cds.typetypelist-v1.0+xml",
+    "TEST_param": "typetypes"
+  },
+  {
+    "TEST_id": "TYTY000002",
+    "TEST_name": "GETs TypeType by ID (!#NEON-TYTY000002) : ",
+    "TEST_filename": "SmokeTest.TypeType.GET.data.json",
+    "TEST_header": "application/vnd.neoninc.cds.typetype-v1.0+xml",
+    "TEST_param": "typetypes/1"
+  },
+  {
+    "TEST_id": "TYTY000003",
+    "TEST_name": "GETs TypeType by NID (!#NEON-TYTY000003) : ",
+    "TEST_filename": "SmokeTest.TypeType.GET.data.json",
+    "TEST_header": "application/vnd.neoninc.cds.typetype-v1.0+xml",
+    "TEST_param": "typetypes?nid=D09CDAC6F7C84BCBE0430518640A5267"
+  },
+  {
+    "TEST_id": "UNIT000001",
+    "TEST_name": "GET Unit List (!#NEON-UNIT000001) : ",
+    "TEST_filename": "SmokeTest.Unit.GET.data.json",
+    "TEST_header": "application/vnd.neoninc.cds.unitlist-v1.0+xml",
+    "TEST_param": "unit/all?verbose=false"
+  },
+  {
+    "TEST_id": "UNIT000002",
+    "TEST_name": "GET Unit by Name (!#NEON-UNIT000002) : ",
+    "TEST_filename": "SmokeTest.Unit.GET.data.json",
+    "TEST_header": "application/vnd.neoninc.cds.unit-v1.0+xml",
+    "TEST_param": "unit?name=hour"
+  },
+  {
+    "TEST_id": "VALU00001",
+    "TEST_name": "Value by measurement stream id (!#NEON-VALU00001) : ",
+    "TEST_filename": "SmokeTest.Value.GET.data.json",
+    "TEST_header": "",
+    "TEST_param": "values?measurementstreamid=23&verbose=true"
+  },
+  {
+    "TEST_id": "VALU00002",
+    "TEST_name": "Value by ID (!#NEON-) : ",
+    "TEST_filename": "SmokeTest.Value.GET.data.json",
+    "TEST_header": "",
+    "TEST_param": "values/1?verbose=true"
+  },
+  {
+    "TEST_id": "VALU00003",
+    "TEST_name": "Value Constraints (!#NEON-VALU00003) : ",
+    "TEST_filename": "SmokeTest.Value.GET.data.json",
+    "TEST_header": "",
+    "TEST_param": "values/1/constraints"
+  },
+  {
+    "TEST_id": "VALU00004",
+    "TEST_name": "Value by NID (!#NEON-VALU00004) : ",
+    "TEST_filename": "SmokeTest.Value.GET.data.json",
+    "TEST_header": "application/vnd.neoninc.cds.value-v1.0+xml",
+    "TEST_param": "values?nid=E3EB6A38EEA1615FE0430518640A9BD5&verbose=true"
+  },
+  {
+    "TEST_id": "VALU00005",
+    "TEST_name": "Value Constraints by measurement stream (!#NEON-VALU00005) : ",
+    "TEST_filename": "SmokeTest.Value.GET.data.json",
+    "TEST_header": "",
+    "TEST_param": "values/constraints?measurementstreamname=NEON.D01.BART.DP0.00024.001.01320.000.050.000"
+  },
+  {
+    "TEST_id": "VALU00006",
+    "TEST_name": "Values by method template ID and method ID (!#NEON-VALU00006) : ",
+    "TEST_filename": "SmokeTest.Value.GET.data.json",
+    "TEST_header": "application/vnd.neoninc.cds.valuelist-v1.0+xml",
+    "TEST_param": "values?methodtemplateid=1&methodid=5"
+  },
+  {
+    "TEST_id": "TXRN000001",
+    "TEST_name": "List by method activity IDs (!#NEON-TXRN000001) : ",
+    "TEST_filename": "SmokeTest.TaxonRank.json",
+    "TEST_header": "application/vnd.neoninc.cds.taxonRankList-v1.0+xml",
+    "TEST_param": "taxonrank?typenid=40D523B9EAA84BC9BB91276CBE4076A8"
+  },
+  {
+    "TEST_id": "TXLC000001",
+    "TEST_name": "by taxonItem Type NID/Taxon Item Code (!#NEON-TXLC000001) : ",
+    "TEST_filename": "SmokeTest.TaxonLocationLocationTaxon.json",
+    "TEST_header": "application/vnd.neoninc.cds.locationtaxonlist-v1.0+xml",
+    "TEST_param": "locationtaxon?taxonitemtypenid=6C95F1497C6847D09C76F9B8F30F54B1&code=CARNESPP"
+  },
+  {
+    "TEST_id": "TXLC000002",
+    "TEST_name": "by taxonType NID/Taxon Code (!#NEON-TXLC000002) : ",
+    "TEST_filename": "SmokeTest.TaxonLocationLocationTaxon.json",
+    "TEST_header": "application/vnd.neoninc.cds.locationtaxonlist-v1.0+xml",
+    "TEST_param": "locationtaxon?taxontypenid=FD4A22624C434DD1B3F7913730DC58D4&code=CARNE2SPP"
+  }
+]
