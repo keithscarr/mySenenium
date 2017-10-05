@@ -40,9 +40,9 @@ import com.jayway.restassured.response.Response;
 
 @RunWith(Enclosed.class)
 //@FixMethodOrder(MethodSorters.NAME_ASCENDING)
-@SuiteClasses({ metadataMainStructure.N_BeforePart.class, metadataMainStructure.O_NotParameterizedPart.class,
-	//metadataMainStructure.Q_domainsAPI.class, metadataMainStructure.R_updateMetadata.class,
-	metadataMainStructure.Z_AfterPart.class, metadataMainStructure.P_LocationMetadata.class})
+//@SuiteClasses({ metadataMainStructure.N_BeforePart.class, metadataMainStructure.O_NotParameterizedPart.class,
+//	metadataMainStructure.Q_domainsAPI.class, metadataMainStructure.R_updateMetadata.class,
+//	metadataMainStructure.Z_AfterPart.class, metadataMainStructure.P_LocationMetadata.class})
 public class metadataMainStructure {
 
 	/** All tests are placed in inner static classes to group them for convenience. The nested classes can be run together **/
@@ -73,7 +73,7 @@ public class metadataMainStructure {
 		@BeforeClass
 		public static void setUpBeforeClass() throws InterruptedException {
 			System.out.println("@BeforeClass Method: Initializing " + type + " Driver");
-			RestAssured.baseURI = "http://Localhost:9090/neon-ods/api";
+			RestAssured.baseURI = "den-intisd-1.ci.neoninternal.org:9090/neon-ods/api";
 			//RestAssured.baseURI = "http://den-devdocker-1/cdsWebApp";
 			driver = DriverFactory.getDriver(type);
 			System.out.println(newLine + newLine);
@@ -81,7 +81,7 @@ public class metadataMainStructure {
 
 		@Test
 		public void A1_DashboardNavigation() throws InterruptedException {	
-			driver.get("http://localhost:8081/#/");
+			driver.get("den-intisd-1.ci.neoninternal.org:8080/#");
 			driver.manage().window().maximize();
 			WebElement OverviewTab = driver.findElement(By.id("sel1"));
 			for (int i = 0; i < 2; i++){
@@ -93,18 +93,17 @@ public class metadataMainStructure {
 
 		@Test
 		public void A2_DashboardNavigation() throws Exception {
-			new Select(driver.findElement(By.id("sel1"))).selectByVisibleText("DEV");
+			new Select(driver.findElement(By.id("sel1"))).selectByVisibleText("INT");
 			logging();
 		}
 
 		@Test
 		public void A3_DashboardNavigation() throws Exception {
-			By constraintstab = By.xpath("//*[@id='app']/div/div/ul/li[11]/a");
+			By constraintstab = By.xpath("//*[@id=\'app\']/div/div[2]/ul/li[9]/a");
 			driver.findElement(constraintstab).click();
 			logging();
 		}
 	}
-
 
 
 	/** ******************* Single test methods, run only once. ***************** **/

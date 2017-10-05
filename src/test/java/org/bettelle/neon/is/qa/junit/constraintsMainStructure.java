@@ -38,8 +38,8 @@ import com.jayway.restassured.path.json.JsonPath;
 
 @RunWith(Enclosed.class)
 //@FixMethodOrder(MethodSorters.NAME_ASCENDING)
-@SuiteClasses({constraintsMainStructure.N_BeforePart.class, constraintsMainStructure.NotParameterizedPart.class,
-				constraintsMainStructure.TheParameterizedPart.class, constraintsMainStructure.Z_AfterPart.class})
+//@SuiteClasses({constraintsMainStructure.N_BeforePart.class, constraintsMainStructure.NotParameterizedPart.class,
+//				constraintsMainStructure.TheParameterizedPart.class, constraintsMainStructure.Z_AfterPart.class})
 public class constraintsMainStructure {
 
 	/** All tests are placed in inner static classes to group them for convenience. The nested classes can be run together **/
@@ -52,7 +52,7 @@ public class constraintsMainStructure {
 	static DriverFactory.BrowserType type = DriverFactory.BrowserType.CHROME;
 
 
-
+	
 	/** ************ Static class that run before other static classes. ************* **/
 	@FixMethodOrder(MethodSorters.NAME_ASCENDING)
 	public static class N_BeforePart {

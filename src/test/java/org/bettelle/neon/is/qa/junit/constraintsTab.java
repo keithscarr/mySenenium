@@ -62,9 +62,7 @@ public class constraintsTab {
 	}
 	
 	 //@Rule
-	  //public Class<MyRunner> exception = MyRunner.class;
-
-
+	 //public Class<MyRunner> exception = MyRunner.class;
 
 	@Rule	
 	public TestWatcher testWatcher = new JunitHelper(LOGGER);

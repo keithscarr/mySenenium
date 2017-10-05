@@ -22,7 +22,7 @@ public class DriverFactory {
 	}
 	public static WebDriver getDriver(BrowserType type){
 
-		WebDriver driver=null;
+		WebDriver driver = null;
 		switch(type){
 		case CHROME:
 			System.setProperty("webdriver.chrome.driver", "src/main/resources/drivers/chromedriver.exe");
